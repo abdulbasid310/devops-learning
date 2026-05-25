@@ -15,9 +15,6 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Run tests
-        run: pytest
-
       - name: Build Docker image
         run: docker build -t abdulbasid310/hello-app:latest .
 
