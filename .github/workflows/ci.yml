@@ -39,10 +39,7 @@ jobs:
           password: ${{ secrets.DOCKERPSWD }}
 
       - name: Push image
-        uses: docker/build-push-action@v6
-        with:
-          push:true
-          tags: abdulbasid310/hello-app:latest
+        run: docker push abdulbasid310/hello-app:latest
 
 
 
