@@ -22,7 +22,7 @@ jobs:
         run: pytest
 
       - name: Build Docker image
-      run: docker build -t hello-app .
+        run: docker build -t hello-app .
 
       - name: Run container
         run: |
