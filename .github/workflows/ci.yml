@@ -21,6 +21,7 @@ jobs:
       - name: Run container
         run: |
           docker run -d -p 8080:80 abdulbasid310/hello-app:latest
+          sleep 10
 
       - name: Test website
         run: |
