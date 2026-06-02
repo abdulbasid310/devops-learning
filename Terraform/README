@@ -1,1 +1,3 @@
-
+In this project I used terraform to deploy a full wordpress stack on AWS. The infrastructure is managed through terraform 
+including the EC2 instance, network architecture and security groups. A user data script is used to automatically install 
+and configure the software required to run wordpress
