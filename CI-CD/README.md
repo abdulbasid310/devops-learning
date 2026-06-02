@@ -1,1 +1,11 @@
-This project demonstrates how to build a CI-CD pipeline that automatically checks out code on each push and then builds and pushes a docker image to dockerhub.
+This project demonstrates a CI-CD pipeline using GitHub Actions and Docker. The pipeline automatically builds a
+Docker image, runs a container to verify the application is working correctly, and then pushes the image to Docker Hub
+on push.
+
+Tech stack:
+GitHub Actions
+Docker
+Dockerhub
+
+
+
