@@ -6,6 +6,9 @@ on:
       - main
       - modularised-project
 
+env:
+  AWS_REGION: eu-west-2
+  
 defaults:
   run:
     working-directory: infra
