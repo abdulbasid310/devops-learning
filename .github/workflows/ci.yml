@@ -6,7 +6,7 @@ on:
       - main
       - modularised-project
     paths:
-      - "infra/**"
+      - "gatus/**"
 
 env:
   AWS_REGION: eu-west-2
