@@ -3,8 +3,6 @@ resource "aws_ecr_repository" "gatus" {
 
     image_tag_mutability = "MUTABLE"
 
-    lifecycle {
-    prevent_destroy = true
-  }
+    force_delete = true
     
 }
