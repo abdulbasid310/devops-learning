@@ -5,6 +5,8 @@ on:
     branches:
       - main
       - modularised-project
+    paths:
+      - "infra/**"
 
 env:
   AWS_REGION: eu-west-2

@@ -5,10 +5,12 @@ on:
     branches:
       - main
       - modularised-project
+    paths:
+      - "infra/**"
 
 env:
   AWS_REGION: eu-west-2
-  
+
 defaults:
   run:
     working-directory: infra
